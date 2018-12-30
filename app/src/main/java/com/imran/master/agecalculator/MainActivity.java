@@ -1,18 +1,15 @@
 package com.imran.master.agecalculator;
 
-import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.time.Period;
+import androidx.appcompat.app.AppCompatActivity;
 
 import static android.view.View.GONE;
 
@@ -98,8 +95,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 } else
-                    Toast.makeText(MainActivity.this, "Birth year cannot be greater then the expected calculation year", Toast.LENGTH_SHORT).show();
-
+                    Toast.makeText(MainActivity.this, "Birth year cannot be greater then the expected calculation year!Plese try again!", Toast.LENGTH_SHORT).show();
 
             }
         });

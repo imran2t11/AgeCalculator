@@ -1,14 +1,15 @@
 package com.imran.master.agecalculator;
 
 import android.content.Intent;
-import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Handler;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class SplashActivity extends AppCompatActivity {
-    ImageView splashIV;
     public final int spashtimeout = 2000;
+    ImageView splashIV;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
