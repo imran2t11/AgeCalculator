@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "494265661043",
+    "firebase_url": "https://fir-assignmentmvvm.firebaseio.com",
+    "project_id": "fir-assignmentmvvm",
+    "storage_bucket": "fir-assignmentmvvm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494265661043:android:9d9313e67462db65",
+        "android_client_info": {
+          "package_name": "com.example.borhan.signinusingfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494265661043-585tforvn7lfuetbttkkeqo6g6q1lpj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.borhan.signinusingfirebase",
+            "certificate_hash": "3332408633a537955384aef89a14df4ee9095ab8"
+          }
+        },
+        {
+          "client_id": "494265661043-3p667mfvt81p9sp9istt36ad0t3e4f0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.borhan.signinusingfirebase",
+            "certificate_hash": "38e071cdcbb977f11805e2824c717d146ae4ada5"
+          }
+        },
+        {
+          "client_id": "494265661043-i2hlcosog7gprcf3dk0d7bo9tgu3te0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8UMCJUTMgcYuDrtvNxfZEuInj0B4gYk0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494265661043-i2hlcosog7gprcf3dk0d7bo9tgu3te0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

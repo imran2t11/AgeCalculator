@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5b91ce"
+    tools:context=".HomePage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/batteryreminder"
+            android:textColor="#b9072e"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2f5926"
+                android:hint="Battery Level"
+                android:id="@+id/batteryPercentage"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Name "
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/nameTV"/>
+
+        <TextView
+            android:id="@+id/locationTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lat and Lon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@android:dimen/app_icon_size"
+            android:id="@+id/addresslineTV"
+            android:hint="AddressLine"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="0dp"
+            android:hint="City"
+
+            android:id="@+id/cityTV"
+            />
+
+        <TextView
+            android:id="@+id/countryTV"
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="0dp"
+            android:hint="Country"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Emergency CALL"
+            android:textStyle="bold"
+            android:background="#315cd2"
+            android:textColor="#f2eded"
+            android:onClick="callToEmergency"/>
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Emergency SMS"
+            android:background="#be4317"
+            android:textColor="#f5f4f4"
+            android:textStyle="bold"
+            android:onClick="emergency"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#be5758"
+            android:text="**Press Call to make call to Emergency Number OR Press Emergency SMS to share your location by SMS"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#315cd2"
+            android:textColor="#f2eded"
+            android:gravity="center"
+            android:onClick="reloadfunction"
+            android:text="Reload Address"
+            />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f7f4f4"
+            android:text="Press Reload to get most updated location"
+            android:gravity="center"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2d4ca3"
+        android:text=""
+        android:gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#315cd2"
+        android:textColor="#f2eded"
+        android:layout_gravity="center"
+        android:text="List of Police Station Numebrs"
+        android:onClick="PSlistbtn"/>
+
+
+</LinearLayout>
